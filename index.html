@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Comment</title>
+</head>
+<body>
+
+    <div class="comments">
+        <div class="comment__title">Комментарии</div>
+        <div class="comments__none">Новых комментариев нет</div>
+
+        <div class="comments__list">
+           
+        </div>
+
+        <div class="comments__form">
+            <div class="comments__form-title">Добавить комментарий</div>
+
+            <label class="label__name" for="name">Ваше имя*</label>
+            <input class="input" type="text" id="name" name="name" placeholder="Имя">
+            <label class="label__textarea" for="text">Текст комментария*</label>
+            <textarea class="textarea" name="text" id="text"></textarea>
+
+            <button class="btn-send">Отправить</button>
+        </div>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

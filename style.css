@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.error {
+    border: 1px solid red !important;
+}
+
+.comments {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 20px;
+}
+.comment__title {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.comments__none {
+    font-size: 14px;
+    color: rgb(68, 68, 68);
+    text-transform: uppercase;
+    text-align: center;
+}
+.comments__list {
+    margin-bottom: 100px;
+}
+.comments__item {
+    position: relative;
+    padding: 20px;
+    background-color: rgb(228, 228, 228);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.comment__delete {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+    font-size: 28px;
+    color: red;
+    cursor: pointer;
+}
+.comments__author {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.comments__text {
+    margin-bottom: 10px;
+}
+.comments__date {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 40px;
+}
+.comments__form {
+    
+}
+.comments__form-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.label__name {
+    font-weight: bold;
+    margin-right: 20px;
+}
+.input {
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 2px solid #48a9c5;
+}
+.label__textarea {
+    font-weight: bold;
+    margin-bottom: 20px;
+    display: block;
+    
+}
+.textarea {
+    width: 100%;
+    max-width: 1200px;
+    max-height: 200px;
+    min-width: 150px;
+    min-height: 300px;
+    min-height: 150px;
+    padding: 20px;
+    font-size: 18px;
+    color: #000;
+    font-family: inherit;
+    border-radius: 5px;
+    border: 2px solid #48a9c5;
+}
+
+.btn-send {
+    display: block;
+    background-color: blue;
+    border: none;
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
